@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inscrição Para o Evento TECH 2024</title>
+</head>
+
+<body>
+    <section class="form-container">
+        <div class="container">
+            <form action="">
+                <h1>Complete o formulário para se inscrever no evento.</h1>
+                <p>Informações Pessoais</p>
+
+                <div class="input-single">
+                    <input type="text" name="" id="nome-box" class="input" autocomplete="off" required>
+                    <label for="nome-box">Nome Completo (EX: João Silva)</label>
+                </div>
+
+                <div class="input-single">
+                    <input type="email" name="" id="email-box" class="input" autocomplete="off" required>
+                    <label for="email-box">Email (Ex:João.silva@gmail.com)</label>
+                </div>
+
+                <div class="input-single">
+                    <input type="password" name="" id="senha-box" class="input" autocomplete="off" required>
+                    <label for="senha-box">Senha (Ex: Abcd@1234)</label>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="form-container">
+        <div class="container">
+            <form action="">
+                <p>Preferências do Evento</p>
+                <select name="" id="">
+                    <option value="">Front End</option>
+                    <option value="">Back End</option>
+                </select>
+                <div>
+                    <label for="tema-box">Tema de Interesse</label>
+                    <ul class="tema-interesse">
+
+                        <li><input type="checkbox" name="" id="check-box"> Desenvolvimento Web</li>
+                        <li><input type="checkbox" name="" id="check-box"> Banco de Dados</li>
+                        <li><input type="checkbox" name="" id="check-box"> Infraestrutura de Software</li>
+                    </ul>
+                </div>
+                <form action="">
+                    <h3>Submissão de Apresentação</h3>
+                    <div class="">
+                        <input type="text" name="" id="titulo_submissao-box" class="input" autocomplete="off" placeholder="Titulo" required>
+                    </div>
+                    <div>
+                        <label for="apresentacao"></label>
+
+                        <textarea style="resize:none" id="apresentacao" name="apresentacao" rows="4" cols="35">
+
+                        </textarea>
+                    </div>
+                </form>
+                <input type="submit" value="Enviar" class="btn">
+            </form>
+        </div>
+    </section>
