@@ -1,0 +1,115 @@
+/* Organizando todo o site em caixa */
+* {
+    box-sizing: border-box;
+}
+
+/* Ajustes em todo site */
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Ajustes no cabeçalho principal */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: whitesmoke;
+}
+
+/* Ajustando o tamanho do cabeçalho */
+.header h1 {
+    font-size: 50px;
+}
+
+/* Ajustando a cor e escondendo o conteúdo excedido */
+.topnav {
+    float: left;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    padding-left: 14;
+    padding-right: 16;
+}
+
+#imgcarrinho {
+    width: 22px 22px;
+    vertical-align: middle;
+}
+
+/* Ajuste nos LINKS do Menu principal */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Mude a cor ou passar o mouse */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Rodapé */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Transformando em um Layout responsivo - telas medias */
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Transformando em um Layout responsivo - telas menores */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
