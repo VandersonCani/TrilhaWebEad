@@ -15,21 +15,63 @@
     padding-right: 16px;
     padding: 10px;
 }
+
 .topnav a {
     text-decoration: none;
     text-decoration-color: antiquewhite;
     font-style: normal;
     font-size: 25px;
-}
-a:link{
-    color:antiquewhite;   
+    padding-right: 30px;
 }
 
-a:visited{
+a:link {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:visited {
+    text-decoration: none;
     color: rgb(50, 97, 50);
 }
-#botaocarrinho{
-    float: right;
-    padding-left: 5px;
+
+#imgcarrinho {
+    padding-left: 10px;
     padding-right: 5px;
+}
+
+#botaocarrinho {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.sellcard {
+    margin-top: 10px;
+    float: left;
+    width: 23.40%;
+    margin-top: 10;
+}
+
+.sellcardimg {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.descricao {
+    text-align: center;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+}
+
+p.valor {
+    text-align: center;
+    font-size: 0.8;
+    font-weight: bold;
+}
+
+.compra {
+    text-align: center;
 }
