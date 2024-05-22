@@ -1,0 +1,26 @@
+#topnav {
+    width: 97%;
+    display: inline;
+    background-color: rgb(56, 41, 26);
+    padding: 10;
+}
+
+#headerpizza {
+    width: auto;
+}
+
+a:link {
+    padding-left: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:visited {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#pedidos {
+    float: right;
+}
