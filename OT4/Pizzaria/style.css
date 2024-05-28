@@ -4,9 +4,18 @@
     background-color: rgb(56, 41, 26);
     padding: 10;
 }
-
-#headerpizza {
-    width: auto;
+.holder {
+    background-image: url(Pizzaria/img/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.holder img, .holder p{
+    position: absolute;
+    font-size: 28px;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 a:link {
