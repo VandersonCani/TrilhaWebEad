@@ -1,35 +1,31 @@
-#topnav {
-    width: 97%;
-    display: inline;
-    background-color: rgb(56, 41, 26);
-    padding: 10;
+.topnav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(34, 33, 33);
+    padding: 7px;
+    margin-bottom: 10px;
 }
-.holder {
-    background-image: url(Pizzaria/img/);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+
+a:link{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration:none ;
 }
-.holder img, .holder p{
+
+#imgpizza{
+    width: 100%;
+    height: 150px;
+}
+#txtpizzaria{
+    color: darkred;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    font-size: 28px;
-    font-family: sans-serif;
     text-align: center;
 }
-
-a:link {
-    padding-left: 20px;
-    font-size: 25px;
-    text-decoration: none;
-    color: antiquewhite;
-}
-
-a:visited {
-    text-decoration: none;
-    color: antiquewhite;
-}
-
-#pedidos {
-    float: right;
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
