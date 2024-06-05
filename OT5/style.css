@@ -6,6 +6,13 @@ body {
     text-align: center;
 }
 
+.logos {
+    width: 33px;
+    height: 33px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
 header {
     background-color: white;
     border-radius: 10px;
@@ -29,11 +36,10 @@ header {
 }
 
 .social-links a {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
+    background-color: #4194ec6e;
     border-radius: 5px;
+    color: white;
+    padding: 3px;
     margin: 0 10px;
 }
 
