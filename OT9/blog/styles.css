@@ -1,0 +1,58 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Ajusta as colunas automaticamente */
+    gap: 20px;
+  }
+  
+  /* Mantenha as outras propriedades do body que você já tinha */
+  
+  header {
+    grid-column: 1 / 3; /* Ocupa toda a largura */
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .conteudo {
+    padding: 20px;
+  }
+  
+  .post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Mantenha as outras propriedades do post que você já tinha */
+  
+  aside {
+    background-color: #eee;
+    padding: 20px;
+  }
+  
+  /* Mantenha as outras propriedades da aside que você já tinha */
+  
+  /* Layout responsivo para telas menores */
+  @media (max-width: 768px) {
+    body {
+      grid-template-columns: 1fr; /* Uma única coluna para telas menores */
+    }
+  
+    aside {
+      display: none; /* Navegação lateral oculta em telas menores */
+    }
+  
+    .post {
+      width: 100%; /* Conteúdo do post ocupa toda a largura */
+    }
+  }
+  
+  /* Nova media query para telas médias (opcional) */
+  @media (min-width: 768px) and (max-width: 1000px) {
+    body {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajusta as colunas para caber até 3 por linha em telas médias */
+    }
+  }
+  
